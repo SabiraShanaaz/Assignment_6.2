@@ -1,0 +1,123 @@
+Give brief answers to the questions below:
+ 
+
+1.Why MapReduce program is needed in Pig Programming?
+
+      -The need for map reduce program in pig programming is:
+
+           * The map reduce programs are needed when hadoop developers need driver profram control.
+
+           * It is mainly needed when there is need for optimization during the stages of processing.
+
+           * Map reduce is used by hadoop developers when testability is required to combine large volume of data.
+
+           * It is used when there is a need of cross products, joins and distributed cache by the job when there is a tricky usage.
+
+
+2.What are advantages of Pig over MapReduce?
+       
+      -The advantage of pig over mapreduce is:
+ 
+           * The major advantage of pig is that it is a data flow language that makes it easier to process and and analyze big data by building it on the top of hadoop.
+
+           * In map reduce the development time is high ,whereas in pig the development time is decreased by proper maintanence of the programs.
+
+           * For users who does not know how to write map reduce or SQL programs ,they can make use of pig programs which are similar to that of english language.
+
+           * Pig is procedural and therefore the user can easily control the execution of steps.
+
+           * Pig helps in parallellization by acting as a base pipeline and utilize large volume of data.
+
+
+3.What is Pig engine and what is its importance?
+
+       -The pig engine and its importance:
+
+            * Pig engine acts as an abstraction over map reduce.
+             
+            * Pig engine represents the large set of data in the form of data flow.
+
+            * It is a hig level platform that are used for creating programs that run on hadoop.
+
+            * Pig engines are used to execute hadoop jobs in mapreduce.
+
+            * The major importance of pig engine is that it acts as an interpreter between pig latin script and map reduce jobs.
+
+            * It is used to execute pig scripts in map reduce jobs in parallel manner.
+
+
+4. What are the modes of Pig execution?
+
+       -The modes of pig execution:
+
+            * There are two modes that executes pig commands:
+                   -Local mode
+                   -Mapreduce mode
+
+            * Local mode:
+                   -In local mode the files are first installed.
+                   -After installation of the files they are made to run on local host and local file system.
+                   -The local mode is mostly used for testing purpose.
+
+            * MapReduce mode:
+                   -In map reduce mode the data that are existing in the hadoop distributed file system are processed.
+                   -The pig latin statements are mostly used to process the data.
+                   -After processing the data the map reduce job is invoked in the back end that are used to perform a particular operation on the data.
+
+
+5.What is Grunt Shell in Pig?
+
+       -The grunt shell in pig:
+
+            * The grunt shell are invoked and are used to run the pig scripts.
+
+            * The grunt shell is mainly used to write the pig latin scripts.
+
+            * The documents that are supported by grunt are mainly used in interactive shell and batch mode.
+
+            * It is used by many shell and utilities commands.
+
+            * The grunt are used with dfs commands like cat,cd,copyFromLocal,copyToLocal etc and it is alo used with pig commands like define,describe,dump,explain etc.
+
+
+6.What are the features of Pig Latin language?
+
+       -The features of pig latin language:
+
+            * Pig is a multi query approach thus helps the user to reduce the length of codes.
+
+            * Pig is a SQL like language and it makes it easy for the users to write codes.
+
+            * Pig latin provides rich set of operators thus enabling the user yo perform operations like join , sort etc.
+
+            * Pig latin provides optimization opportunity that enables the user to optimize their execution automatically 
+                      and helps the user to focus on semantics of the language.
+
+            * Pig latin provides greater extensibility thus allowing the user to develop their own function to read and write data.
+
+            * Pig latin handles both the structured and unstructured data.
+
+
+7.Is Pig Latin commands case sensitive?
+
+       * Yes,the pig latin commands are case sensitive.
+
+       * The names of relations and fields are also case sensitive.
+
+       * The name of pig latin function ,the names of parameters and pig latin keywords are case sensitive.
+
+       * Eg: The name of relation A,b and c are case sensitive and keywords LOAD,USING,As etc are case sensitive.
+
+
+8.What is a data flow language?
+
+       -The data flow language is:
+
+            * Data flow language acts as a programming paradigm that makes use of a directed graph .
+
+            * The directed graph is made up of programs and the graph represents the flow of data between operations.
+
+            * In data flow language the user is provided with stream of data that allows the user to move from instruction to instruction.
+
+            * Conditional statement,jumps and procedural calls helps the user to move from instruction to instruction.
+
